@@ -3,7 +3,7 @@ package com.mctw.sc
 import android.os.Bundle
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
-//import kotlinx.android.synthetic.main.activity_usershare.*
+import kotlinx.android.synthetic.main.activity_usershare.*
 
 class UserShareActivity : AppCompatActivity() {
 
@@ -16,7 +16,7 @@ class UserShareActivity : AppCompatActivity() {
         webView.webViewClient = WebViewClient()
 
         // this will load the url of the website
-        webView.loadUrl("https://www.mctwireless.com/us")
+        webView.loadUrl("https://www.mctwireless.com/sc")
 
         // this will enable the javascript settings, it can also allow xss vulnerabilities
         webView.settings.javaScriptEnabled = true
@@ -35,4 +35,5 @@ class UserShareActivity : AppCompatActivity() {
         else
             super.onBackPressed()
     }
+}
 }
