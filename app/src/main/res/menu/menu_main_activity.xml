@@ -19,12 +19,12 @@
         android:title="@string/menu_about"/>
 
     <item
-        android:id="@+id/webView"
+        android:id="@+id/action_usershare"
         app:showAsAction="never"
         android:title="@string/menu_share"/>
 
     <item
-        android:id="@+id/vpn"
+        android:id="@+id/action_vpn"
         app:showAsAction="never"
         android:title="@string/menu_vpn"/>
 

@@ -1,4 +1,5 @@
 package com.mctw.sc
 
-class VPNActivity {
+class VPNActivity : BaseActivity() {
+ //   setContentView(R.layout.activity_vpn)
 }

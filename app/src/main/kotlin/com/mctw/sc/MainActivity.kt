@@ -184,6 +184,12 @@ class MainActivity : BaseActivity(), ServiceConnection {
             R.id.action_about -> {
                 startActivity(Intent(this, AboutActivity::class.java))
             }
+            R.id.action_usershare -> {
+                startActivity(Intent(this, UserShareActivity::class.java))
+            }
+            R.id.action_vpn -> {
+                startActivity(Intent(this, VPNActivity::class.java))
+            }
             R.id.action_exit -> {
                 MainService.stop(this)
                 finish()
