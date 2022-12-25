@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="d.d.meshenger">
+    package="com.mctw.sc">
 
     <!-- Backup Import/Export -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -29,22 +29,22 @@
         tools:replace="android:allowBackup">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.mctw.sc.MainActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".QRShowActivity"
+            android:name="com.mctw.sc.QRShowActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".QRScanActivity"
+            android:name="com.mctw.sc.QRScanActivity"
             android:screenOrientation="portrait" />
 
         <service
-            android:name=".MainService"
+            android:name="com.mctw.sc.MainService"
             android:exported="false" />
 
         <activity
-            android:name=".StartActivity"
+            android:name="com.mctw.sc.StartActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -54,25 +54,31 @@
         </activity>
 
         <activity
-            android:name=".CallActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.mctw.sc.CallActivity"
+            android:parentActivityName="com.mctw.sc.MainActivity"
             android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout"
             android:screenOrientation="fullUser" />
         <activity
-            android:name=".SettingsActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.mctw.sc.SettingsActivity"
+            android:parentActivityName="com.mctw.sc.MainActivity" />
         <activity
-            android:name=".AboutActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.mctw.sc.AboutActivity"
+            android:parentActivityName="com.mctw.sc.MainActivity" />
         <activity
-            android:name=".BackupActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.mctw.sc.BackupActivity"
+            android:parentActivityName="com.mctw.sc.MainActivity" />
         <activity
-            android:name=".AddressActivity"
-            android:parentActivityName=".SettingsActivity" />
+            android:name="com.mctw.sc.AddressActivity"
+            android:parentActivityName="com.mctw.sc.SettingsActivity" />
         <activity
-            android:name=".LicenseActivity"
-            android:parentActivityName=".AboutActivity" />
+            android:name="com.mctw.sc.LicenseActivity"
+            android:parentActivityName="com.mctw.sc.AboutActivity" />
+        <activity
+            android:name="com.mctw.sc.VPNActivity"
+            android:parentActivityName="com.mctw.sc.VPNActivity" />
+        <activity
+            android:name="com.mctw.sc.UserShareActivity"
+            android:parentActivityName="com.mctw.sc.UserShareActivity" />
     </application>
 
 </manifest>
