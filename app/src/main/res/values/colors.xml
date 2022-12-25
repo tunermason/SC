@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFEC3E3E</color>
-    <color name="colorPrimaryDark">#B71C1C</color>
-    <color name="colorAccent">#FFEC3E3E</color>
+    <color name="colorPrimary">#001D57</color>
+    <color name="colorPrimaryDark">#001133</color>
+    <color name="colorAccent">#002671</color>
 
     <color name="colorBackgroundDark">#33343B</color>
     <color name="colorTextDarkPrimary">@android:color/primary_text_dark</color>
@@ -18,7 +18,7 @@
     <color name="call_orange">#FF9800</color>
     <color name="light_grey">#B1B1B1</color>
     <color name="white">#FFFFFF</color>
-    <color name="selectedColor">#EC3E3F</color>
-    <color name="unselectedColor">#1AEC3E3F</color>
+    <color name="selectedColor">#002671</color>
+    <color name="unselectedColor">#001133</color>
     <color name="navy_blue">#172331</color>
 </resources>

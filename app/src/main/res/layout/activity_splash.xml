@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.6"
-        android:background="#FFEC3E3E"
+        android:background="#FFFFFF"
     >
 
         <ImageView
@@ -18,7 +18,7 @@
             android:layout_height="250dp"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_meshenger_icon" />
+            android:src="@drawable/logo" />
 
     </RelativeLayout>
 
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="@string/app_name"
-            android:textColor="#FFEC3E3E"
+            android:textColor="#FFFFFF"
             android:textSize="40dp"
             android:paddingTop="20dp"/>
 

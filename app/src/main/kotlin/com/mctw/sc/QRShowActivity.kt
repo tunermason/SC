@@ -46,6 +46,22 @@ class QRShowActivity : BaseActivity(), ServiceConnection {
                 // ignore
             }
         }
+
+        findViewById<View>(R.id.fabCopy).setOnClickListener {
+            try {
+                val contact = extraContact ?: binder!!.getSettings().getOwnContact()
+                val data = Contact.toJSON(contact, false).toString()
+                val clipboardManager = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                val clipData = ClipData.newPlainText("text", data)
+                clipboardManager.setPrimaryClip(clipData)
+                Toast.makeText(this, "Text copied to clipboard", Toast.LENGTH_LONG).show()
+                finish()
+            } catch (e: Exception) {
+                // ignore
+            }
+        }
+
+
     }
 
     override fun onDestroy() {
