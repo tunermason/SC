@@ -30,10 +30,10 @@ android {
 
     productFlavors {
         google {
-            applicationId 'app.meshenger'
+            applicationId 'com.mctw.sc'
         }
-        fdroid {
-            applicationId 'd.d.meshenger'
+        open {
+            applicationId 'd.mctw.sc'
         }
     }
 }
