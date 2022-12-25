@@ -32,6 +32,8 @@
     <string name="menu_license">License</string>
     <string name="menu_backup">Backup</string>
     <string name="menu_about">About</string>
+    <string name="menu_share">User Share</string>
+    <string name="menu_vpn">VPN</string>
     <string name="menu_exit">Exit</string>
     <string name="user">User</string>
     <string name="unknown_caller">Unknown Caller</string>
