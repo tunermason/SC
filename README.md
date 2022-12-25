@@ -1,4 +1,4 @@
-# Meshenger
+# Secure Connect
 
 True P2P voice- and video phone calls without the need for accounts or access to the Internet. There is no discovery mechanism, no meshing and no servers. Just scan each others QR-Code that will contain the contacts IP address. This works in many local networks such as community mesh networks, company networks or at home.
 
