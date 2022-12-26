@@ -1,4 +1,4 @@
-package com.mctw.sc.call
+package com.mctw.sc
 
 import kotlin.random.Random
 
